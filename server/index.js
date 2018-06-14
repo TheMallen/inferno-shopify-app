@@ -34,7 +34,7 @@ app.use(
   }),
 );
 
-// app.use(verifyRequest());
+app.use(verifyRequest());
 
 app.use(graphQLProxy());
 
